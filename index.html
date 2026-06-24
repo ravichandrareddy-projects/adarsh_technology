@@ -559,6 +559,29 @@
       color: rgba(200,132,58,0.35);
       letter-spacing: 0.1em;
     }
+    .svc-subservices {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--dust);
+      line-height: 1.5;
+      font-family: var(--sans);
+      opacity: 0.85;
+    }
+    .svc-price {
+      margin-top: 1.25rem;
+      font-size: 0.82rem;
+      font-family: var(--mono);
+      letter-spacing: 0.05em;
+      color: var(--amber-lt);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .svc-price span {
+      color: var(--warm-mid);
+      font-family: var(--sans);
+      font-size: 0.78rem;
+    }
 
     /* ── PROCESS ── */
     #process {
@@ -1319,39 +1342,75 @@
   <div class="services-grid">
     <div class="service-card reveal delay-1">
       <span class="svc-num">01</span>
-      <span class="svc-icon">✨</span>
-      <h3 class="svc-title">Floor Sanding & Polishing</h3>
-      <p class="svc-text">Bringing tired floors back to life with professional diamond polishing and sanding. We restore natural stone, hardwood, and concrete surfaces to mirror-like perfection.</p>
+      <span class="svc-icon">🧱</span>
+      <h3 class="svc-title">Concrete Flooring Services</h3>
+      <p class="svc-text">Premium, highly durable, and custom-designed concrete floors. Perfect for modern residential and heavy-duty industrial spaces.</p>
+      <div class="svc-subservices">
+        <strong>Options:</strong> Stamped Concrete · Polished Overlay · Micro Topping · Coloured Concrete · Oxide Flooring
+      </div>
+      <div class="svc-price">
+        <span>Price Range:</span> <strong>₹80 - ₹350 / Sq.Ft</strong>
+      </div>
     </div>
     <div class="service-card reveal delay-2">
       <span class="svc-num">02</span>
-      <span class="svc-icon">🎨</span>
-      <h3 class="svc-title">Decorative Concrete</h3>
-      <p class="svc-text">Custom decorative concrete solutions for homes and commercial spaces. Stampings, stencils, colour hardeners, and exposed aggregate finishes crafted for lasting beauty.</p>
+      <span class="svc-icon">✨</span>
+      <h3 class="svc-title">Concrete Polishing Services</h3>
+      <p class="svc-text">Professional diamond grinding and polishing to transform dull concrete into durable, mirror-like, and dust-proof surfaces.</p>
+      <div class="svc-subservices">
+        <strong>Options:</strong> Polished Overlay · Micro Topping Polishing · Oxide Polishing · Floor Densification
+      </div>
+      <div class="svc-price">
+        <span>Price Range:</span> <strong>₹50 - ₹180 / Sq.Ft</strong>
+      </div>
     </div>
     <div class="service-card reveal delay-3">
       <span class="svc-num">03</span>
-      <span class="svc-icon">🏠</span>
-      <h3 class="svc-title">Home Décor Flooring</h3>
-      <p class="svc-text">Bespoke flooring solutions designed to complement your interiors. From micro-topping to metallic epoxy, we create conversation-starting floors for luxury residences.</p>
+      <span class="svc-icon">🏛️</span>
+      <h3 class="svc-title">Terrazzo Flooring</h3>
+      <p class="svc-text">Classic, elegant, and exceptionally long-lasting flooring made with marble chips, granite, or glass aggregates set in cement.</p>
+      <div class="svc-subservices">
+        <strong>Options:</strong> Cementitious Terrazzo · Terrazzo Polishing
+      </div>
+      <div class="svc-price">
+        <span>Price Range:</span> <strong>₹150 - ₹450 / Sq.Ft</strong>
+      </div>
     </div>
     <div class="service-card reveal delay-1">
       <span class="svc-num">04</span>
-      <span class="svc-icon">🏭</span>
-      <h3 class="svc-title">Industrial Flooring</h3>
-      <p class="svc-text">High-performance industrial floors engineered for heavy traffic, chemical resistance, and extreme durability. Warehouses, factories, and showrooms — built to last.</p>
+      <span class="svc-icon">📐</span>
+      <h3 class="svc-title">Micro Concrete / Micro Topping</h3>
+      <p class="svc-text">Seamless, ultra-thin overlays (2-3mm) that deliver a clean, minimalist concrete look without structural load.</p>
+      <div class="svc-subservices">
+        <strong>Options:</strong> Colour Hardener System · Seamless Micro Topping
+      </div>
+      <div class="svc-price">
+        <span>Price Range:</span> <strong>₹120 - ₹280 / Sq.Ft</strong>
+      </div>
     </div>
     <div class="service-card reveal delay-2">
       <span class="svc-num">05</span>
-      <span class="svc-icon">🧱</span>
-      <h3 class="svc-title">Wall Finishes</h3>
-      <p class="svc-text">Textured plaster, stone cladding, and decorative wall coatings that elevate any interior. Our wall finish specialists transform flat surfaces into architectural features.</p>
+      <span class="svc-icon">🎨</span>
+      <h3 class="svc-title">Wall Finishing Services</h3>
+      <p class="svc-text">Transformative architectural wall applications including textured concrete finishes and seamless micro-topping walls.</p>
+      <div class="svc-subservices">
+        <strong>Options:</strong> Textured Wall Finish · Micro Topping Walls · Wall Texture
+      </div>
+      <div class="svc-price">
+        <span>Price Range:</span> <strong>₹60 - ₹220 / Sq.Ft</strong>
+      </div>
     </div>
     <div class="service-card reveal delay-3">
       <span class="svc-num">06</span>
-      <span class="svc-icon">🔧</span>
-      <h3 class="svc-title">Repair & Restoration</h3>
-      <p class="svc-text">Expert crack repair, grinding, levelling, and concrete restoration. We diagnose and solve structural and aesthetic floor problems with lasting solutions.</p>
+      <span class="svc-icon">🏁</span>
+      <h3 class="svc-title">Specialty Flooring</h3>
+      <p class="svc-text">High-performance, safety-focused, and impact-resistant floors tailored for sports, gym, play areas, or premium wood requirements.</p>
+      <div class="svc-subservices">
+        <strong>Options:</strong> EPDM Play Area · Sports Playground · Pure Wooden · Gym Flooring
+      </div>
+      <div class="svc-price">
+        <span>Price Range:</span> <strong>₹90 - ₹650 / Sq.Ft</strong>
+      </div>
     </div>
   </div>
 </section>
@@ -1637,12 +1696,12 @@
           <label for="fservice">Service Interested In</label>
           <select id="fservice">
             <option value="">Select a service…</option>
-            <option>Floor Sanding & Polishing</option>
-            <option>Decorative Concrete</option>
-            <option>Home Décor Flooring</option>
-            <option>Industrial Flooring</option>
-            <option>Wall Finishes</option>
-            <option>Repair & Restoration</option>
+            <option>Concrete Flooring Services</option>
+            <option>Concrete Polishing Services</option>
+            <option>Terrazzo Flooring</option>
+            <option>Micro Concrete / Micro Topping</option>
+            <option>Wall Finishing Services</option>
+            <option>Specialty Flooring</option>
             <option>Not Sure – Need Consultation</option>
           </select>
         </div>
@@ -1686,12 +1745,12 @@
       <div class="footer-col">
         <p class="footer-col-title">Services</p>
         <ul>
-          <li><a href="#services">Floor Sanding & Polishing</a></li>
-          <li><a href="#services">Decorative Concrete</a></li>
-          <li><a href="#services">Home Décor Flooring</a></li>
-          <li><a href="#services">Industrial Flooring</a></li>
-          <li><a href="#services">Wall Finishes</a></li>
-          <li><a href="#services">Repair & Restoration</a></li>
+          <li><a href="#services">Concrete Flooring Services</a></li>
+          <li><a href="#services">Concrete Polishing Services</a></li>
+          <li><a href="#services">Terrazzo Flooring</a></li>
+          <li><a href="#services">Micro Concrete / Micro Topping</a></li>
+          <li><a href="#services">Wall Finishing Services</a></li>
+          <li><a href="#services">Specialty Flooring</a></li>
         </ul>
       </div>
       <div class="footer-col">
